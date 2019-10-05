@@ -1,0 +1,80 @@
+
+.top-about{
+    display: flex;
+    align-content: center;
+    margin: 1% 0 5% 0;
+}
+
+.blue-block{
+ background-color: #86EEFC;
+ height: 400px;
+ width: 600px;
+ margin: 0 0 0 0;
+}
+
+.photo-of-me{
+    background-image: url(../Images/pexels-photo-1919287.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+    margin: -60% 0 0 8%;
+}
+
+.text-and-arrows{
+    display:flex;
+    flex-direction: column;
+    margin: 7% 7% 0 10%;
+}
+
+
+.text-about-me{
+    font-size:28px;
+    font-weight: 500;
+  
+}
+
+.arrow{
+    background-image: url(../Images/arrows-black-01.png);
+    height: 100px;
+    width: 100px;
+    margin: 15% 0 0 0;
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.about-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0% 0 0% 0;
+}
+
+.about-text{
+   width: 40%;
+   margin: 0% 5% 0 5%;
+}
+
+.art-image1{
+   background-image: url(../Images/pexels-photo-1919287.jpeg);
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   width:600px;
+}
+
+.art-image2{
+    background-image: url(../Images/pexels-photo-1919287.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width:600px;
+}
+ .art-image3{
+    background-image: url(../Images/pexels-photo-1919287.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+ }
