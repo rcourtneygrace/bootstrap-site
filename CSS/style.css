@@ -45,6 +45,10 @@ a:hover {
     margin-right: 25px;
 }
 
+.navbar {
+    width: 100%;
+}
+
 .logo {
     background-image: url(../Images/Name\ logo-01.png);
     height: 40px;
@@ -53,10 +57,11 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
+    flex-shrink: 0;
 }
 
 .nav-list {
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 
 .nav-item {
@@ -64,8 +69,8 @@ a:hover {
 }
 
 #navbarNav {
-    align-self: flex-end;
-    margin-right: -20%;
+    /* align-self: flex-end; */
+    /* margin-right: -20%; */
 }
 
 .jumbotron {
@@ -377,8 +382,8 @@ select {
         font-size: 15px;
     }
     #navbarNav {
-        align-self: flex-end;
-        margin-right: -35%;
+        /* align-self: flex-end; */
+        /* margin-right: -35%; */
     }
     .dates {
         width: 100px;
@@ -393,9 +398,6 @@ select {
     .body {
         width: 100vw;
     }
-    #mobile-nav1 {
-        border: 1px solid black;
-    }
     .blackTop {
         background-color: #1f1f1f;
         height: 40px;
@@ -404,7 +406,7 @@ select {
         display: none;
     }
     .navbar {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         align-items: center;
     }
@@ -416,6 +418,7 @@ select {
         background-size: cover;
         background-repeat: no-repeat;
         background-size: cover;
+        flex-shrink: 0!important;
     }
     .jumbo-text {
         font-size: 30px;
