@@ -92,6 +92,7 @@ a:hover {
 
 .container {
     margin: 7% auto 7% auto;
+    max-width: fit-content!important;
 }
 
 .col {
@@ -115,10 +116,15 @@ a:hover {
 }
 
 .card-style {
-    height: 370px;
-    width: 500px;
+    /* height: 370px; */
+    /* width: 500px; */
     border-radius: 5px;
     display: inline-block;
+}
+
+.card-image {
+    height: 50vh;
+    object-fit: cover;
 }
 
 .one {
@@ -392,6 +398,10 @@ select {
     .check-it-out {
         margin: 0 0 50px 0;
     }
+    .card-image {
+        height: 15vh;
+        object-fit: cover;
+    }
 }
 
 @media (max-width: 600px) {
@@ -440,9 +450,13 @@ select {
         margin: 0;
     }
     .card-style {
-        width: 100vw;
+        width: 80vw;
         border-radius: 5px;
         display: inline-block;
+    }
+    .card-image {
+        height: 25vh;
+        object-fit: cover;
     }
     .workSk {
         height: auto;
