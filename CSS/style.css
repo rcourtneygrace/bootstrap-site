@@ -107,7 +107,6 @@ a:hover {
     text-align: center;
 }
 
-
 /* On mouse-over, add a deeper shadow */
 
 .card:hover {
@@ -125,38 +124,6 @@ a:hover {
 .card-image {
     height: 50vh;
     object-fit: cover;
-}
-
-.one {
-    background-image: url(../Images/DOed.png);
-    height: 300px;
-    width: 500px;
-    background-size: cover;
-    background-position: center;
-}
-
-.two {
-    background-image: url(../Images/TXPRT.png);
-    height: 300px;
-    width: 500px;
-    background-size: cover;
-    background-position: center;
-}
-
-.three {
-    background-image: url(../Images/Untitled.png);
-    height: 300px;
-    width: 500px;
-    background-size: cover;
-    background-position: center;
-}
-
-.four {
-    background-image: url(../Images/Outer\ Reach.png);
-    height: 300px;
-    width: 500px;
-    background-size: cover;
-    background-position: center;
 }
 
 .workSk {
@@ -180,8 +147,7 @@ a:hover {
     font-weight: 400;
 }
 
-.workEx,
-.skills {
+.workEx, .skills {
     Width: 40%;
     text-align: left;
 }
@@ -235,34 +201,6 @@ a:hover {
     font-weight: 400;
     font-size: 20px;
     margin: 3% 0 0 0;
-}
-
-.art {
-    background-image: url(../Images/pexels-photo-1919287.jpeg);
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-}
-
-.writing {
-    background-image: url(../Images/pexels-photo-1919287.jpeg);
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-}
-
-.coding {
-    background-image: url(../Images/pexels-photo-1919287.jpeg);
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-}
-
-.video {
-    background-image: url(../Images/pexels-photo-1919287.jpeg);
-    height: 200px;
-    background-size: cover;
-    background-position: center;
 }
 
 .card3 {
@@ -331,16 +269,7 @@ form {
     padding-right: 25%;
 }
 
-.form-style-1 input[type=text],
-.form-style-1 input[type=date],
-.form-style-1 input[type=datetime],
-.form-style-1 input[type=number],
-.form-style-1 input[type=search],
-.form-style-1 input[type=time],
-.form-style-1 input[type=url],
-.form-style-1 input[type=email],
-textarea,
-select {
+.form-style-1 input[type=text], .form-style-1 input[type=date], .form-style-1 input[type=datetime], .form-style-1 input[type=number], .form-style-1 input[type=search], .form-style-1 input[type=time], .form-style-1 input[type=url], .form-style-1 input[type=email], textarea, select {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -349,16 +278,7 @@ select {
     margin: 0px;
 }
 
-.form-style-1 input[type=text]:focus,
-.form-style-1 input[type=date]:focus,
-.form-style-1 input[type=datetime]:focus,
-.form-style-1 input[type=number]:focus,
-.form-style-1 input[type=search]:focus,
-.form-style-1 input[type=time]:focus,
-.form-style-1 input[type=url]:focus,
-.form-style-1 input[type=email]:focus,
-.form-style-1 textarea:focus,
-.form-style-1 select:focus {
+.form-style-1 input[type=text]:focus, .form-style-1 input[type=date]:focus, .form-style-1 input[type=datetime]:focus, .form-style-1 input[type=number]:focus, .form-style-1 input[type=search]:focus, .form-style-1 input[type=time]:focus, .form-style-1 input[type=url]:focus, .form-style-1 input[type=email]:focus, .form-style-1 textarea:focus, .form-style-1 select:focus {
     -moz-box-shadow: 0 0 8px #88D5E9;
     -webkit-box-shadow: 0 0 8px #88D5E9;
     box-shadow: 0 0 8px #88D5E9;
@@ -478,8 +398,7 @@ select {
         width: 200px;
         font-weight: 400;
     }
-    .workEx,
-    .skills {
+    .workEx, .skills {
         Width: 90%;
         text-align: left;
         padding: 50px 0 50px 0;
