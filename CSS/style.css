@@ -87,9 +87,7 @@ a:hover {
 }
 
 .container{
-    justify-content: center;
-    align-content: center;
-    margin: 5% auto 5% auto;
+    margin: 7% auto 7% auto;
 }
 
 .col{
@@ -378,8 +376,20 @@ select{
     font-size: 12px;
 }
 
+@media only screen (min-width: 768px) and (max-width: 1024px) {
+  .dates{
+        width: 100px;
+        font-weight: 400;
+    }
+    
+  }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 768px) {
+    .body{
+        width: 100vw; 
+    }
+
     .blackTop{
         background-color: #1f1f1f;
         height:40px;
