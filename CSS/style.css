@@ -91,7 +91,7 @@ a:hover {
 }
 
 .container {
-    margin: 7% auto 7% auto;
+    margin: 5% auto 5% auto;
     max-width: fit-content!important;
 }
 
@@ -144,7 +144,8 @@ a:hover {
 .work-header {
     align-content: center;
     text-align: center;
-    font-size: 25px;
+    font-size:30px;
+    margin-bottom: 30px;
 }
 
 .dates {
@@ -180,10 +181,10 @@ a:hover {
 }
 
 .whoAmI {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500;
     text-align: center;
-    margin: 7% 0 3% 0;
+    margin: 5% 0 0% 0;
     padding: 0 5% 0 5%;
 }
 
@@ -193,13 +194,13 @@ a:hover {
     align-content: center;
     width: 100%;
     margin: 5px 0 5px 0;
-    gap: 5px;
+    gap: 2px;
 }
 
 .card2 {
     width: 100%;
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    padding: 2px 2px 2px 2px;
 }
 
 .text-overlay {
@@ -316,12 +317,13 @@ form {
         /* align-self: flex-end; */
         /* margin-right: -35%; */
     }
+
     .dates {
         width: 100px;
         font-weight: 400;
     }
     .check-it-out {
-        margin: 0 0 50px 0;
+        margin: 10px 0 5px 0;
     }
     .card-image {
         height: 15vh;
@@ -362,9 +364,10 @@ form {
         line-height: 45px;
     }
     .jumbo-button {
-        padding: 10px 100px 10px 100px;
-        font-size: 30px;
-        max-width: 400px;
+        padding: 15px 50px 15px 50px;
+        font-size: 25px;
+        min-width: 90%;
+        max-width: 500px;
         margin: 0 auto;
         align-self: center;
         justify-content: center;
@@ -396,8 +399,9 @@ form {
     .work-header {
         align-content: center;
         text-align: center;
-        font-size: 25px;
+        font-size: 30px;
         margin: auto;
+        margin-bottom: 30px;
     }
     .dates {
         width: 200px;
@@ -426,8 +430,13 @@ form {
         height: 200px;
     }
     .check-it-out {
-        margin: 0 0 50px 0;
+        padding: 15px 50px 15px 50px;
+        font-size: 25px;
+        margin: 0 auto;
+        align-self: center;
+        justify-content: center;
     }
+
     .card-body {
         display: flex;
         flex-direction: column;

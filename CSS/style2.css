@@ -79,7 +79,55 @@
     width: 600px;
  }
 
- @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 1025px) {
     .body{
         width: 100vw; 
     }
+
+    .top-about{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        margin: 0 0 5% 0;
+    }
+    
+    .blue-block{
+        background-color: #86EEFC;
+        height: 40vh;
+        width: 80vw;
+        margin: 0 0 0 0;
+       }
+       
+       .photo-of-me{
+           background-image: url(../Images/pexels-photo-1919287.jpeg);
+           background-size: cover;
+           background-position: center;
+           height: 40vh;
+           width: 80vw;
+           margin: -300px 0 0 50px;
+       }
+
+
+.text-about-me{
+    font-size:28px;
+    font-weight: 500;
+  
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0 0% 0;
+ }
+
+ .arrow{
+    display: none;
+}
+
+ .about-text{
+    width: 85%;
+    margin: 2% 5% 2% 5%;
+    font-size: 20px;
+ }
