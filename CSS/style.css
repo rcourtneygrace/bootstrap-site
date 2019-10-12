@@ -27,6 +27,7 @@ a:hover {
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
+    font-weight:600;
     border-radius: 5px;
 }
 
@@ -215,6 +216,11 @@ a:hover {
     border-style: solid;
     text-align: center;
     padding: 10px 10px 10px 10px;
+}
+
+.subtext {
+    font-size: 12px;
+    margin-top: -20px;
 }
 
 .blog {
