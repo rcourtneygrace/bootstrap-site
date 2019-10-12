@@ -60,17 +60,9 @@ a:hover {
     flex-shrink: 0;
 }
 
-.nav-list {
-    /* align-self: flex-end; */
-}
 
 .nav-item {
     margin: 0 15px 0 15px;
-}
-
-#navbarNav {
-    /* align-self: flex-end; */
-    /* margin-right: -20%; */
 }
 
 .jumbotron {
@@ -319,10 +311,7 @@ form {
         margin: 0 5px 0 5px;
         font-size: 15px;
     }
-    #navbarNav {
-        /* align-self: flex-end; */
-        /* margin-right: -35%; */
-    }
+
 
     .dates {
         width: 100px;
