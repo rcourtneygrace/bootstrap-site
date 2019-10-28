@@ -442,6 +442,10 @@ form {
         display: flex;
         flex-direction: column;
     }
+
+    .top{
+        object-position: top;
+    }
     .contact-info {
         display: flex;
         flex-direction: column;
@@ -453,8 +457,12 @@ form {
     .line {
         display: none;
     }
-    form {
+
+    /* form {
         padding-left: 10%;
         padding-right: 10%;
+    } */
+    .foot-line{
+        margin: 0 auto;
     }
 }
