@@ -57,25 +57,27 @@
 }
 
 .art-image1{
-   background-image: url(../Images/pexels-photo-1919287.jpeg);
-   background-size: cover;
+   background-image: url(../Images/art.jpg);
+   background-size: contain;
    background-position: center;
-   height: 400px;
+   height: 300px;
    width:600px;
+
+object-fit: fill
 }
 
 .art-image2{
-    background-image: url(../Images/pexels-photo-1919287.jpeg);
+    background-image: url(../Images/design.jpg);
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 250px;
     width:600px;
 }
  .art-image3{
-    background-image: url(../Images/pexels-photo-1919287.jpeg);
+    background-image: url(../Images/UX.jpg);
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 250px;
     width: 600px;
  }
 

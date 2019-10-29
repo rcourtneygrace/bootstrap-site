@@ -36,7 +36,7 @@ a:hover {
 }
 
 .blackTop {
-    background-color: #1f1f1f;
+    background-color: #2C2C2C;
     height: 40px;
 }
 
@@ -78,10 +78,10 @@ a:hover {
 .jumbo-text {
     color: white;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.78);
-    font-size: 30px;
-    margin: 8% 5% 10% 60%;
+    font-size: 35px;
+    margin: 8% 5% 10% 55%;
     font-weight: 600;
-    line-height:50px;
+    line-height:60px;
 }
 
 .jumbo-button {
@@ -132,7 +132,7 @@ a:hover {
 
 .workSk {
     height: auto;
-    background-color: #1f1f1f;
+    background-color: #2C2C2C;
     padding: 100px 2% 60px 2%;
     display: flex;
     align-content: center;
@@ -230,78 +230,61 @@ a:hover {
 .footer {
     width: 100%;
     height: auto;
-    line-height: 60px;
-    background-color: #1f1f1f;
+    line-height: 30px;
+    background-color: #2C2C2C;
     margin-top: 70px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-top: 40px;
 }
 
-.title-foot {
-    font-weight: 500;
-    color: #54C5D2;
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: -20px;
-}
-
-.contact-info {
-    margin-top: 6px;
-    margin-bottom: -15px;
+.top-foot{
     display: flex;
     align-content: center;
     justify-content: center;
-    color: white;
+    margin: 0 15% 0 15%;
 }
 
-.contact-stuff {
-    font-weight: 400;
-    font-size: 15px;
+.title-foot {
+    font-weight: 700;
+    color: #92EFF7;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
 }
 
-.line {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: -10px;
+.right, .left{ 
+ color: white;
 }
 
-.form-control {
-    margin: 0 0 0 0;
-    border-radius: 2px;
+.fa-phone, .fa-envelope{
+    padding: 0 15px 0 0;
+    
+    line-height: inherit;
 }
 
-.name {
-    width: 100%;
+.contact{
+    display: flex;
+    align-content: center;
 }
 
-form {
-    padding-left: 25%;
-    padding-right: 25%;
+.words{
+    align-self: center;
+    vertical-align: super;
 }
 
-.form-style-1 input[type=text], .form-style-1 input[type=date], .form-style-1 input[type=datetime], .form-style-1 input[type=number], .form-style-1 input[type=search], .form-style-1 input[type=time], .form-style-1 input[type=url], .form-style-1 input[type=email], textarea, select {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    border: 2px solid #86EEFC;
-    padding: 7px;
-    margin: 0px;
+.left{
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
 }
 
-.form-style-1 input[type=text]:focus, .form-style-1 input[type=date]:focus, .form-style-1 input[type=datetime]:focus, .form-style-1 input[type=number]:focus, .form-style-1 input[type=search]:focus, .form-style-1 input[type=time]:focus, .form-style-1 input[type=url]:focus, .form-style-1 input[type=email]:focus, .form-style-1 textarea:focus, .form-style-1 select:focus {
-    -moz-box-shadow: 0 0 8px #88D5E9;
-    -webkit-box-shadow: 0 0 8px #88D5E9;
-    box-shadow: 0 0 8px #88D5E9;
-    border: 1px solid #88D5E9;
+.right{
+    font-size:20px;
+    line-height: 40px;
+    padding: 0 0 0 10%;
 }
-
-.message {
-    height: 200px;
-}
-
 .foot-line {
     background-color: white;
-    margin: 50px auto 3px auto;
+    margin: 30px auto 3px auto;
     width: 90%;
     height: 1px;
 }
@@ -309,27 +292,8 @@ form {
 .codedWithLove {
     color: white;
     margin-left: 5%;
+    margin-top: 15px;
     font-size: 12px;
-}
-
-@media (min-width: 600px) and (max-width: 1024px) {
-    .nav-item {
-        margin: 0 5px 0 5px;
-        font-size: 15px;
-    }
-
-
-    .dates {
-        width: 100px;
-        font-weight: 400;
-    }
-    .check-it-out {
-        margin: 10px 0 5px 0;
-    }
-    .card-image {
-        height: 15vh;
-        object-fit: cover;
-    }
 }
 
 @media (max-width: 600px) {
@@ -359,10 +323,11 @@ form {
         flex-shrink: 0!important;
     }
     .jumbo-text {
-        font-size: 30px;
-        margin: 20% 10% 10% 10%;
-        font-weight: 500;
-        line-height: 45px;
+        font-size: 45px;
+        text-align: center;
+        margin: 10% 5% 10% 5%;
+        font-weight: 700;
+        line-height: 65px;
     }
     .jumbo-button {
         padding: 15px 50px 15px 50px;
@@ -457,11 +422,10 @@ form {
     .line {
         display: none;
     }
+.right{
+    display: none;
+}
 
-    /* form {
-        padding-left: 10%;
-        padding-right: 10%;
-    } */
     .foot-line{
         margin: 0 auto;
     }
