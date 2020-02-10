@@ -92,6 +92,7 @@ a:hover {
 .container {
     margin: 5% auto 5% auto;
     max-width: fit-content!important;
+    max-width: -moz-fit-content!important;
 }
 
 .col {
