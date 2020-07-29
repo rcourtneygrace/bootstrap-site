@@ -36,7 +36,7 @@ a:hover {
 }
 
 .blackTop {
-    background-color: #2C2C2C;
+    background-color: rgb(26, 26, 26);
     height: 40px;
 }
 
@@ -51,9 +51,9 @@ a:hover {
 }
 
 .logo {
-    background-image: url(../Images/Name\ logo-01.png);
-    height: 40px;
-    width: 350px;
+    background-image: url(../Images/Logo\ 2-01.png);
+    height: 45px;
+    width: 400px;
     margin: 1% 0 1% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@ a:hover {
 
 .workSk {
     height: auto;
-    background-color: #2C2C2C;
+    background-color: rgb(26, 26, 26);
     padding: 100px 2% 60px 2%;
     display: flex;
     align-content: center;
@@ -232,7 +232,7 @@ a:hover {
     width: 100%;
     height: auto;
     line-height: 30px;
-    background-color: #2C2C2C;
+    background-color: rgb(26, 26, 26);
     margin-top: 70px;
     padding-bottom: 20px;
     padding-top: 40px;
