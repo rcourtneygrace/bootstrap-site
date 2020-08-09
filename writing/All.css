@@ -168,7 +168,7 @@ font-weight: 300;
 
     .about-img{
 background-image: url(me.jpeg);
-height: 400px;
+height: 450px;
 width: 400px;
 background-position: center;
 background-size: cover;
@@ -179,9 +179,10 @@ background-size: cover;
     }
 
     .about-text{
-        height: 400px;
+        height: 450px;
         width: 600px;
-padding-top: 30px;
+padding-top: 20px;
+padding-bottom: 50px;
 line-height: 1.6;
 font-size: 16px;
     }
@@ -219,7 +220,7 @@ font-style: italic;
 }
 
 .contact-me{
- width: 40%;
+ width: 50%;
  padding-top:50px;
  margin: 0 auto;
  font-size: 20px;
