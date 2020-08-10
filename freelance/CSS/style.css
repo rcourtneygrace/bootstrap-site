@@ -7,6 +7,10 @@ a {
     color: black;
 }
 
+p {
+    /* margin: auto; */
+}
+
 a:hover {
     color: #81E5F3;
     text-decoration: none;
@@ -109,9 +113,10 @@ button{
 
 
 .hero, .jumbotron {
-    background-image: url('../Images/banner-1.jpg');
+    background-image: url('../Images/Cover-bl.jpg');
     background-size: cover;
-    background-position: left;
+    background-position-y: bottom;
+    background-position-x: right;
     height: 90vh; 
     margin-bottom: 50px;
     color:white;
@@ -121,31 +126,28 @@ button{
       text-align: center;
       flex-direction: column;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 23vh;
+      justify-content: flex-start;
+      align-items: flex-end;
   }
   
    .line1, .line2{
-  font-size: 75px;
-  font-weight:600;
-  
+       
+  font-size: 80px;
+  font-weight:300;
+  font-family: 'Yantramanav', sans-serif;
   text-shadow: 3px 2px 5px rgba(17,17,17,0.74);
    }
   
    .line1{
-  padding-right: 250px;
+       margin-top:8vh;
+       margin-left:40vw
    }
   
    .line2{
-      padding-left: 250px;
+       margin-right: -100px;
+       margin-top:-50px;
   }
-  
-   .line3{
-      font-size: 30px;
-      font-weight: 500;
-      text-shadow: 3px 2px 5px rgba(17,17,17,0.74);
-   }
+
   
   
    .popImage{
@@ -156,6 +158,8 @@ button{
        align-content: center;
        margin: 0 auto;
        margin-top:100px;
+       margin-left: 40px;
+       margin-right: 40px;
   
    }
   
@@ -182,7 +186,7 @@ button{
   }
   
   .picWords{
-  font-size: 35px;
+  font-size: 25px;
   font-weight:500;
   text-align: center;
   margin-top: 10px;
@@ -196,8 +200,9 @@ button{
   
   
    .image-yt{
-      background-image: url('../Images/girl-field.jpeg');
-       height: 100vh;
+      background-image: url('../Images/Writing.jpg');
+      background-position: center ;
+       height: 65vh;
   
    }
   
@@ -214,7 +219,7 @@ button{
   
   .bordered{
       border: 2px solid white;
-      margin: 25vh 25% 75px;
+      margin: 15vh 25% 20px;
       padding: 50px 0 75px;
   }
   
@@ -302,6 +307,7 @@ font-style: italic;
  margin: 0 auto;
  font-size: 15px;
  line-height: 2;
+ margin-bottom: 140px;
 }
 
   .container {
@@ -346,15 +352,26 @@ font-style: italic;
     object-fit: cover;
 }
 
+.blue-footer{
+background-color: #81E5F3;
+height:70px;
+color: darkblue;
+font-size: 30px;
+font-weight: 400;
+display: flex;
+align-content: center;
+justify-content: center;
+margin: auto !important;
+}
+
 
 .footer {
     width: 100%;
     height: auto;
     line-height: 30px;
     background-color: rgb(26, 26, 26);
-    margin-top: 70px;
     padding-bottom: 20px;
-    padding-top: 40px;
+   
 }
 
 .top-foot{
@@ -362,6 +379,7 @@ font-style: italic;
     align-content: center;
     justify-content: center;
     margin: 0 15% 0 15%;
+    padding-top: 50px;
 }
 
 .title-foot {
@@ -390,6 +408,7 @@ font-style: italic;
 .words{
     align-self: center;
     vertical-align: super;
+    text-align: left;
 }
 
 .left{
@@ -530,6 +549,19 @@ font-family: 'Montserrat', sans-serif;
         display: flex;
         flex-direction: column;
     }
+
+    .blue-footer{
+        background-color: #81E5F3;
+        height:70px;
+        color: darkblue;
+        font-size: 15px;
+        font-weight: 400;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: auto !important;
+        }
+        
 
     .top{
         object-position: top;
