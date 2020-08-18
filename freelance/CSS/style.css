@@ -164,7 +164,7 @@ button{
    }
   
    .img1 {
-  background-image: url('../Images/Illustrator.jpeg');
+  background-image: url('../Images/Mystic-Forest.png');
   background-size: cover;
   background-position: bottom;
   
@@ -172,7 +172,7 @@ button{
   
    
   .img2 {
-      background-image: url('../Images/Design.jpeg');
+      background-image: url('../Images/Botanical-Gardens.png');
       background-size: cover;
       background-position: bottom;
       
@@ -186,17 +186,26 @@ button{
   }
   
   .picWords{
-  font-size: 25px;
+  font-size: 30px;
   font-weight:500;
   text-align: center;
   margin-top: 10px;
   
   }
+
+  .pic-discribe{
+      width:300px;
+      margin: 0 auto;
+     font-size: 16px;
+     font-weight: 400;
+  }
   
-  .button-div{
-      margin-top:50px;
-      margin-bottom:200px;
-      }
+  .price-link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+    font-size: 20px;
+  }
   
   
    .image-yt{
@@ -435,6 +444,32 @@ font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
 
+
+@media (max-width: 1000px){
+
+  
+    .line1, .line2{
+       
+        font-size: 60px;
+        font-weight:300;
+        font-family: 'Yantramanav', sans-serif;
+        text-shadow: 3px 2px 5px rgba(17,17,17,0.74);
+         }
+        
+         .line1{
+             margin-top:8vh;
+             margin-left:40vw
+         }
+        
+         .line2{
+             margin-right: -100px;
+             margin-top:-50px;
+        }
+      
+
+
+    
+}
 
 
 
