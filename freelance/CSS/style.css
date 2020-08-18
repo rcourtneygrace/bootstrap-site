@@ -445,14 +445,14 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
-@media (max-width: 1200px){
+@media (max-width: 1250px){
 
     .jum-words {
       margin-right: 0px !important;
     }
     .line1, .line2{
        
-        font-size: 60px;
+        font-size: 50px;
         font-weight:300;
         font-family: 'Yantramanav', sans-serif;
         text-shadow: 3px 2px 5px rgba(17,17,17,0.74);
