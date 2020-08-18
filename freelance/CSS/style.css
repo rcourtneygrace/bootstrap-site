@@ -311,6 +311,19 @@ font-style: italic;
  
 }
 
+.price1{
+    display: block;
+    widows: 100%;
+}
+
+.price2{
+display:none;
+}
+
+.price3{
+display:none;
+}
+
 .note{
  width: 50%;
  margin: 0 auto;
@@ -444,8 +457,38 @@ font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
 
+@media (max-width: 1600px){
+    .jum-words {
+        margin-right: 0px !important;
+      }
+      .line1, .line2{
+          font-size: 60px;
+           }
 
-@media (max-width: 1450px){
+       .head{
+         font-size: 27px;
+        line-height:40px;
+           
+        }
+        .bordered{
+            border: 2px solid white;
+            margin: 15vh 25% 20px;
+            padding: 20px 0 25px;
+        }
+
+        .small-text{
+            font-size: 20px;
+            font-family: 'lato', sans-serif;
+            padding-top:32px;
+            }
+
+    .top-line{
+        width:85vw;
+    }
+}
+
+
+@media (max-width: 1200px){
 
     .jum-words {
       margin-right: 0px !important;
@@ -465,13 +508,46 @@ font-family: 'Montserrat', sans-serif;
          .line2{
              margin-top:-50px;
         }
-}
+
+        .top-line{
+            width: 70vw;
+        }
+
+        .price1{
+            display:none;
+            }
+
+            .price2{
+                display: block;
+                width:100%;
+            }
+               
+            .price3{
+            display:none;
+            }
+    }
 
 @media (max-width: 710px){
 
+    .hero, .jumbotron {
+        background-image: url('../Images/Cover-bl.jpg');
+        background-size: cover;
+        background-position-y: top;
+        background-position-x: right;
+        height: 40vh; 
+        margin-bottom: 50px;
+        color:white;
+      }
+    
     .jum-words {
       margin-right: 0px !important;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
     .line1, .line2{
        
         font-size: 50px;
@@ -485,8 +561,65 @@ font-family: 'Montserrat', sans-serif;
          }
         
          .line2{
-             margin-top:-50px;
+             margin-top: 10px ;
         }
+
+        .bordered{
+            border: 2px solid white;
+            margin: 10vh 15% 20px;
+            padding: 20px 0 25px;
+        }
+        .container {
+            justify-content: center;
+            align-content: center;
+            margin: 0;
+        }
+        .card-style {
+            width: 80vw;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .card-image {
+            height: 36vh;
+            object-fit: cover;
+        }
+
+        .contact-me{
+            width: 80%;
+            text-align: center;
+            padding-top:30px;
+            margin: 0 auto;
+            font-size: 18px;
+            font-weight: 500;
+           }
+
+        .price1{
+            display:none;
+            }
+            
+            .price2{
+            display:none;
+            }
+
+            .price3{
+                display: block;
+                width:100%;
+
+            }
+
+            
+    .blue-footer{
+        background-color: #81E5F3;
+        height:70px;
+        color: darkblue;
+        font-size: 17px;
+        font-weight: 400;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: auto !important;
+        }
+            
 }
 
 /*Iphone*/
@@ -495,23 +628,14 @@ font-family: 'Montserrat', sans-serif;
     .jum-words {
       margin-right: 0px !important;
       margin-left: auto !important;
+      margin: auto !important;
     }
-    .line1, .line2{
-       
-        font-size: 25px;
-        font-weight:300;
-        font-family: 'Yantramanav', sans-serif;
-        text-shadow: 3px 2px 5px rgba(17,17,17,0.74);
-         }
         
          .line1{
-             margin-top:8vh;
-             margin-right: 40px;
+             margin-top:0vh;
+             margin-right: 0px;
          }
         
-         .line2{
-             margin-top:-25px;
-        }
 }
 
 
@@ -558,20 +682,7 @@ font-family: 'Montserrat', sans-serif;
         align-self: center;
         justify-content: center;
     }
-    .container {
-        justify-content: center;
-        align-content: center;
-        margin: 0;
-    }
-    .card-style {
-        width: 80vw;
-        border-radius: 5px;
-        display: inline-block;
-    }
-    .card-image {
-        height: 25vh;
-        object-fit: cover;
-    }
+   
     .workSk {
         height: auto;
         background-color: #1f1f1f;
@@ -628,17 +739,6 @@ font-family: 'Montserrat', sans-serif;
         flex-direction: column;
     }
 
-    .blue-footer{
-        background-color: #81E5F3;
-        height:70px;
-        color: darkblue;
-        font-size: 15px;
-        font-weight: 400;
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        margin: auto !important;
-        }
         
 
     .top{
