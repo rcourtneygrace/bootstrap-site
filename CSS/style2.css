@@ -13,7 +13,7 @@
 }
 
 .photo-of-me{
-    background-image: url(../Images/about-me.jpg);
+    background-image: url(/Images/about-me.jpg);
     background-size: cover;
     background-position: center;
     height: 65vh;
@@ -39,7 +39,7 @@
 }
 
 .arrow{
-    background-image: url(../Images/arrows-black-01.png);
+    background-image: url(/Images/arrows-black-01.png);
     height: 100px;
     width: 100px;
     margin: 15% 0 0 0;
@@ -64,7 +64,7 @@
 @media  (max-width: 1600px){
 
     .photo-of-me{
-        background-image: url(../Images/about-me.jpg);
+        background-image: url(/Images/about-me.jpg);
         background-size: cover;
         background-position: center;
         height: 60vh;
@@ -96,7 +96,7 @@
 
 @media (max-width: 1200px){
     .photo-of-me{
-        background-image: url(../Images/about-me.jpg);
+        background-image: url(/Images/about-me.jpg);
         background-size: cover;
         background-position: center;
         height: 55vh;
