@@ -526,6 +526,7 @@ font-family: 'Montserrat', sans-serif;
 
 @media (max-width: 710px){
 
+
     .hero, .jumbotron {
         background-image: url('../Images/Cover-bl.jpg');
         background-size: cover;
