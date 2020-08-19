@@ -88,7 +88,7 @@ button{
 }
 
 .logo {
-    background-image: url('/Images/Logo\ 2-01.png');
+    background-image: url('../Images/Logo\ 2-01.png');
     height: 65px;
     width: 500px;
     margin: 1% 0 1% 0;
@@ -110,7 +110,7 @@ button{
 
 
 .hero, .jumbotron {
-    background-image: url('/Images/Cover-bl.jpg');
+    background-image: url('../Images/Cover-bl.jpg');
     background-size: cover;
     background-position-y: bottom;
     background-position-x: right;
@@ -161,7 +161,7 @@ button{
    }
   
    .img1 {
-  background-image: url('/Images/Mystic-Forest.png');
+  background-image: url('../Images/Mystic-Forest.png');
   background-size: cover;
   background-position: bottom;
   
@@ -169,14 +169,14 @@ button{
   
    
   .img2 {
-      background-image: url('/Images/Botanical-Gardens.png');
+      background-image: url('../Images/Botanical-Gardens.png');
       background-size: cover;
       background-position: bottom;
       
        }
   
   .img3 {
-  background-image: url('/Images/Video.jpeg');
+  background-image: url('../Images/Video.jpeg');
    background-size: cover;
    background-position: bottom;
           
@@ -206,7 +206,7 @@ button{
   
   
    .image-yt{
-      background-image: url('/Images/Writing.jpg');
+      background-image: url('../Images/Writing.jpg');
       background-position: center ;
        height: 65vh;
   
