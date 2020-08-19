@@ -238,3 +238,202 @@ font-style: italic;
     padding:10px;
     padding-top: 50px;
 }
+
+
+@media (max-width: 1400px){
+
+  .name{
+    font-size: 35px;
+}
+
+  .topnav-right{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+
+@media (max-width: 1100px){
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.name, .page-2, .page-3{
+    margin: 0 auto !important;
+    margin-top: 1%;
+    align-content: center;
+}
+
+.image{
+  margin-bottom: 25px;
+  height: 70vh;
+}
+
+.page-2-2{
+  display:none;
+}
+
+.topnav-right{
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 0px !important;
+  margin-top:20px;
+  padding-bottom: 15px;
+}
+
+.link{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-text{
+  font-size: 14px;
+}
+
+.box, .contact-me{
+width: 70%;
+}
+
+.list{
+  font-size: 18px;
+}
+
+}
+
+
+@media (max-width: 900px){
+.top-line{
+  border: 1px solid black;
+}
+
+  .container {
+    margin-top: 60px;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    ".title . "
+    ". description . "
+    ". publication ."
+    ". link .";
+}
+
+.about-container{
+  flex-direction: column;
+  margin: 0 auto !important;
+}
+
+.about-img{
+  height: 35vh;
+  width: 90vw;
+  margin-top: 10px;
+}
+
+.about-text{
+  width: 90%;
+  height: 100%;
+}
+}
+
+@media(max-width: 625px){
+
+  .name{
+    font-size: 30px;
+  }
+
+  .image{
+    margin-bottom: 25px;
+    height: 70vh;
+    width: 100vw;
+  }
+
+.page-2, .page-3{
+    margin: 0 auto !important;
+    font-size: 40px !important;
+    margin-top: 1%;
+    align-content: center;
+}
+
+.about{
+  font-size: 25px !important;
+}
+
+.link{
+  font-size:12px;
+}
+
+.container{
+  margin-top: 20px;
+}
+
+.title{
+  font-size: 20px;
+}
+
+.description{
+  font-size: 12px;
+}
+
+.publication{
+  font-size: 15px;
+}
+
+.box{
+  width: 85%;
+  margin-top: 20px;
+}
+
+.work-text{
+  font-size: 12px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.sign{
+  font-size: 15px !important;
+}
+
+.contact-me{
+  font-size: 14px;
+  width: 85%;
+}
+
+.list{
+  font-size: 15px;
+  align-items: flex-start;
+}
+
+.delete{
+  display: none;
+}
+
+.end{
+  font-size: 12px;
+}
+
+}
+
+@media(max-width: 400px){
+
+  .name{
+    font-size: 25px !important;
+  }
+
+  .link{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .page-3, .about{
+font-size: 25px !important;
+  }
+
+  .about{
+    font-size: 22px !important;
+  }
+}
+
