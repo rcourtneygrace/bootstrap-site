@@ -531,35 +531,51 @@ font-family: 'Montserrat', sans-serif;
         background-size: cover;
         background-position-y: top;
         background-position-x: right;
-        height: 40vh; 
-        margin-bottom: 50px;
+        height: 60vh; 
         color:white;
       }
     
     .jum-words {
       margin-right: 0px !important;
-        text-align: center;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+      text-align: center;
+      flex-direction: column;
+      flex-direction: row;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
 
     .line1, .line2{
        
-        font-size: 50px;
+        font-size: 40px;
         font-weight:300;
         font-family: 'Yantramanav', sans-serif;
         text-shadow: 3px 2px 5px rgba(17,17,17,0.74);
          }
         
          .line1{
-             margin-top:8vh;
+             margin-top:30px;
          }
         
          .line2{
              margin-top: 10px ;
         }
+
+        .popImage{
+            
+            margin-top:40px;
+            
+       
+        }
+
+        .price-link{
+            display: none;
+          }
+
+          .image-yt{
+          margin-top: 70px;
+          }
+          
 
         .bordered{
             border: 2px solid white;
@@ -629,7 +645,7 @@ font-family: 'Montserrat', sans-serif;
     }
         
          .line1{
-             margin-top:0vh;
+             margin-top:10vh;
              margin-right: 0px;
          }
         
