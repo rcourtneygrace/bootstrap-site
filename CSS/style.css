@@ -7,6 +7,7 @@ a {
     color: black;
 }
 
+
 a:hover {
     color: #81E5F3;
     text-decoration: none;
@@ -16,6 +17,27 @@ a:hover {
     color: white;
     padding: 8px;
     font-size: 20px;
+}
+
+button{
+    background-color: #949494; 
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    -webkit-box-shadow: 3px 3px 7px 1px rgba(0,0,0,0.35); 
+    box-shadow: 3px 3px 7px 1px rgba(0,0,0,0.35);
+}
+
+.bg-gradient-dark{
+    color: #2A2A2A;
 }
 
 .btn {
@@ -37,8 +59,22 @@ a:hover {
 
 .blackTop {
     background-color: rgb(26, 26, 26);
-    height: 40px;
+    height: 50px;
 }
+
+.top-line{
+    border: 1px solid black;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+
+  .work-header{
+   font-size: 35px;
+   font-weight: 600;
+   margin-left: 20%;
+   margin-top: 3vw;
+  }
 
 .top-social {
     float: right;
@@ -47,13 +83,14 @@ a:hover {
 }
 
 .navbar {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .logo {
     background-image: url(../Images/Logo\ 2-01.png);
-    height: 45px;
-    width: 400px;
+    height: 65px;
+    width: 500px;
     margin: 1% 0 1% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,31 +103,234 @@ a:hover {
     margin: 0 15px 0 15px;
 }
 
-.jumbotron {
-    background-image: url(../Images/banner-1.jpg);
+.nav-link{
+    font-size: 18px;
+}
+
+
+
+.hero, .jumbotron {
+    background-image: url('../Images/Cover-bl.jpg');
     background-size: cover;
-    background-position: center;
-    height: 500px;
+    background-position-y: bottom;
+    background-position-x: right;
+    height: 90vh; 
+    margin-bottom: 50px;
+    color:white;
+  }
+  
+  .jum-words{
+      margin-right: 50px !important;
+      text-align: center;
+      flex-direction: column;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-end;
+  }
+  
+   .line1, .line2{
+       
+  font-size: 80px;
+  font-weight:300;
+  font-family: 'Yantramanav', sans-serif;
+  text-shadow: 3px 2px 5px rgba(17,17,17,0.74);
+   }
+  
+   .line1{
+       margin-top:8vh;
+       margin-right: 100px;
+   }
+  
+   .line2{
+       margin-top:-50px;
+  }
+
+  
+  
+   .popImage{
+       height:300px;
+       width:300px;
+       margin-top:100px;
+       border-radius: 400px;
+       align-content: center;
+       margin: 0 auto;
+       margin-top:100px;
+       margin-left: 40px;
+       margin-right: 40px;
+  
+   }
+  
+   .img1 {
+  background-image: url('../Images/Mystic-Forest.png');
+  background-size: cover;
+  background-position: bottom;
+  
+   }
+  
+   
+  .img2 {
+      background-image: url('../Images/Botanical-Gardens.png');
+      background-size: cover;
+      background-position: bottom;
+      
+       }
+  
+  .img3 {
+  background-image: url('../Images/Video.jpeg');
+   background-size: cover;
+   background-position: bottom;
+          
+  }
+  
+  .picWords{
+  font-size: 30px;
+  font-weight:500;
+  text-align: center;
+  margin-top: 10px;
+  
+  }
+
+  .pic-discribe{
+      width:300px;
+      margin: 0 auto;
+     font-size: 16px;
+     font-weight: 400;
+  }
+  
+  .price-link{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 130px;
+    font-size: 20px;
+  }
+  
+  
+   .image-yt{
+      background-image: url('../Images/Writing.jpg');
+      background-position: center ;
+       height: 65vh;
+  
+   }
+  
+  .youtube-text{
+      color: white;
+      text-align: center;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+      
+  }
+  
+  .bordered{
+      border: 2px solid white;
+      margin: 15vh 25% 20px;
+      padding: 50px 0 75px;
+  }
+  
+  .head{
+      font-size: 40px;
+      line-height:60px;
+     
+  }
+  
+  .underline{
+    border-bottom: 1px solid gray;
+    display: inline-block;
+    line-height: 1;
+    font-weight: 900;
+  }
+  
+  .small-text{
+  font-size: 25px;
+  font-family: 'lato', sans-serif;
+  padding-top:32px;
+  }
+  
+  .youtube{
+      color: rgb(130, 222, 255);
+  }
+  
+  .lg-yt{
+      margin-top: 10px;
+      background-color:rgb(130, 222, 255);
+  
+  }
+  
+.pricing{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-.jumbo-text {
-    color: white;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.78);
-    font-size: 35px;
-    margin: 8% 5% 10% 55%;
-    font-weight: 600;
-    line-height:60px;
+.work-text{
+    margin: 0, auto;
+    margin-top: 3%;
+margin-right: 10%;
+margin-left: 10%;
+line-height: 2;
 }
 
-.jumbo-button {
-    margin: -8% 5% 10% 60%;
-    max-width: 200px;
+.blue-text{
+    font-weight: 700;
+color: #00B0FF;
+font-style: italic;
 }
 
-.container {
-    margin: 5% auto 5% auto;
+.sign{
+    font-size: 25px !important;
+    font-weight: 500;
+    margin-left: 30%;
+}
+
+
+.btn-color{
+    background-color: #00B0FF !important;
+}
+
+.box{
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 50px;
+   width: 50%; 
+}
+
+.contact-me{
+ width: 50%;
+ text-align: center;
+ padding-top:50px;
+ margin: 0 auto;
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 2;
+ 
+}
+
+.price1{
+    display: block;
+    widows: 100%;
+}
+
+.price2{
+display:none;
+}
+
+.price3{
+display:none;
+}
+
+.note{
+ width: 50%;
+ margin: 0 auto;
+ font-size: 15px;
+ line-height: 2;
+ margin-bottom: 140px;
+}
+
+  .container {
+    margin: 1% auto 5% auto;
     max-width: fit-content!important;
     max-width: -moz-fit-content!important;
 }
@@ -131,111 +371,26 @@ a:hover {
     object-fit: cover;
 }
 
-.workSk {
-    height: auto;
-    background-color: rgb(26, 26, 26);
-    padding: 100px 2% 60px 2%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    color: white;
+.blue-footer{
+background-color: #81E5F3;
+height:70px;
+color: darkblue;
+font-size: 30px;
+font-weight: 400;
+display: flex;
+align-content: center;
+justify-content: center;
+margin: auto !important;
 }
 
-.work-header {
-    align-content: center;
-    text-align: center;
-    font-size:30px;
-    margin-bottom: 30px;
-}
-
-.dates {
-    width: 200px;
-    font-weight: 400;
-}
-
-.workEx, .skills {
-    Width: 40%;
-    text-align: left;
-}
-
-.table {
-    color: white;
-    border-spacing: 0px;
-}
-
-.vl {
-    border-left: 1px solid white;
-    height: 300px;
-    margin: 0 5% 0 5%;
-}
-
-.recolor em {
-    color: #86EEFC;
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.description {
-    font-size: 12px;
-    font-weight: 100;
-}
-
-.whoAmI {
-    font-size: 50px;
-    font-weight: 500;
-    text-align: center;
-    margin: 5% 0 0% 0;
-    padding: 0 5% 0 5%;
-}
-
-.grid {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    margin: 5px 0 5px 0;
-    gap: 2px;
-}
-
-.card2 {
-    width: 100%;
-    text-align: center;
-    padding: 2px 2px 2px 2px;
-}
-
-.text-overlay {
-    font-weight: 400;
-    font-size: 20px;
-    margin: 3% 0 0 0;
-}
-
-.card3 {
-    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
-    border-width: 5px 5px 5px 5px;
-    border-image: linear-gradient(45deg, #283fe5 0%, #54C5D2 100%);
-    border-image-slice: 9;
-    border-style: solid;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-}
-
-.subtext {
-    font-size: 12px;
-    margin-top: -20px;
-}
-
-.blog {
-    margin: 7% 20% 10% 20%;
-}
 
 .footer {
     width: 100%;
     height: auto;
     line-height: 30px;
     background-color: rgb(26, 26, 26);
-    margin-top: 70px;
     padding-bottom: 20px;
-    padding-top: 40px;
+   
 }
 
 .top-foot{
@@ -243,6 +398,7 @@ a:hover {
     align-content: center;
     justify-content: center;
     margin: 0 15% 0 15%;
+    padding-top: 50px;
 }
 
 .title-foot {
@@ -271,6 +427,7 @@ a:hover {
 .words{
     align-self: center;
     vertical-align: super;
+    text-align: left;
 }
 
 .left{
@@ -297,7 +454,206 @@ font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1600px){
+    .jum-words {
+        margin-right: 0px !important;
+      }
+      .line1, .line2{
+          font-size: 60px;
+           }
+
+       .head{
+         font-size: 27px;
+        line-height:40px;
+           
+        }
+        .bordered{
+            border: 2px solid white;
+            margin: 15vh 25% 20px;
+            padding: 20px 0 25px;
+        }
+
+        .small-text{
+            font-size: 20px;
+            font-family: 'lato', sans-serif;
+            padding-top:32px;
+            }
+
+    .top-line{
+        width:85vw;
+    }
+}
+
+
+@media (max-width: 1200px){
+
+    .jum-words {
+      margin-right: 0px !important;
+    }
+    .line1, .line2{
+       
+        font-size: 50px;
+        font-weight:300;
+        font-family: 'Yantramanav', sans-serif;
+        text-shadow: 3px 2px 5px rgba(17,17,17,0.74);
+         }
+        
+         .line1{
+             margin-top:8vh;
+         }
+        
+         .line2{
+             margin-top:-50px;
+        }
+
+        .top-line{
+            width: 70vw;
+        }
+
+        .price1{
+            display:none;
+            }
+
+            .price2{
+                display: block;
+                width:100%;
+            }
+               
+            .price3{
+            display:none;
+            }
+    }
+
+@media (max-width: 710px){
+
+
+    .hero, .jumbotron {
+        background-image: url('../Images/Cover-bl.jpg');
+        background-size: cover;
+        background-position-y: top;
+        background-position-x: right;
+        height: 45vh; 
+        color:white;
+      }
+    
+    .jum-words {
+      margin-right: 0px !important;
+      text-align: center;
+      flex-direction: column;
+      flex-direction: row;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+    .line1, .line2{
+       
+        font-size: 45px;
+        font-weight:300;
+        font-family: 'Yantramanav', sans-serif;
+        text-shadow: 3px 2px 5px rgba(17,17,17,0.74);
+         }
+        
+         .line1{
+             margin-top:10px;
+         }
+        
+         .line2{
+             margin-top: 5px ;
+        }
+
+        .popImage{
+            
+            margin-top:40px;
+            
+       
+        }
+
+        .price-link{
+            display: none;
+          }
+
+          .image-yt{
+          margin-top: 70px;
+          }
+          
+
+        .bordered{
+            border: 2px solid white;
+            margin: 10vh 15% 20px;
+            padding: 20px 0 25px;
+        }
+        .container {
+            justify-content: center;
+            align-content: center;
+            margin: 0;
+        }
+        .card-style {
+            width: 80vw;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .card-image {
+            height: 36vh;
+            object-fit: cover;
+        }
+
+        .contact-me{
+            width: 80%;
+            text-align: center;
+            padding-top:30px;
+            margin: 0 auto;
+            font-size: 18px;
+            font-weight: 500;
+           }
+
+        .price1{
+            display:none;
+            }
+            
+            .price2{
+            display:none;
+            }
+
+            .price3{
+                display: block;
+                width:100%;
+
+            }
+
+            
+    .blue-footer{
+        background-color: #81E5F3;
+        height:70px;
+        color: darkblue;
+        font-size: 17px;
+        font-weight: 400;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: auto !important;
+        }
+            
+}
+
+/*Iphone*/
+@media (max-width: 625px){
+
+    .jum-words {
+      margin-right: 0px !important;
+      margin-left: auto !important;
+      margin: auto !important;
+    }
+        
+         .line1{
+             margin-right: 0px;
+         }
+        
+}
+
+
+
+@media (max-width: 625px) {
     .body {
         width: 100vw;
     }
@@ -314,7 +670,7 @@ font-family: 'Montserrat', sans-serif;
         align-items: center;
     }
     .logo {
-        background-image: url(../Images/Name\ logo-01.png);
+        background-image: url(../Images/Logo\ 2-01.png);
         height: 25px;
         width: 200px;
         margin: 1% 0 1% 0;
@@ -339,20 +695,7 @@ font-family: 'Montserrat', sans-serif;
         align-self: center;
         justify-content: center;
     }
-    .container {
-        justify-content: center;
-        align-content: center;
-        margin: 0;
-    }
-    .card-style {
-        width: 80vw;
-        border-radius: 5px;
-        display: inline-block;
-    }
-    .card-image {
-        height: 25vh;
-        object-fit: cover;
-    }
+   
     .workSk {
         height: auto;
         background-color: #1f1f1f;
@@ -408,6 +751,8 @@ font-family: 'Montserrat', sans-serif;
         display: flex;
         flex-direction: column;
     }
+
+        
 
     .top{
         object-position: top;

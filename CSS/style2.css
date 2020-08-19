@@ -7,8 +7,8 @@
 
 .blue-block{
  background-color: #86EEFC;
- height: 400px;
- width: 600px;
+ height: 60vh;
+ width: 50vw;
  margin: 0 0 0 0;
 }
 
@@ -16,15 +16,15 @@
     background-image: url(../Images/about-me.jpg);
     background-size: cover;
     background-position: center;
-    height: 400px;
-    width: 600px;
-    margin: -60% 0 0 8%;
+    height: 65vh;
+    width: 40vw;
+    margin: -50% 0 0 25%;
 }
 
 .text-and-arrows{
     display:flex;
     flex-direction: column;
-    margin: 20% 15% 0 15%;
+    margin: 20% 15% 0 25%;
 }
 
 
@@ -32,6 +32,10 @@
     font-size:28px;
     font-weight: 500;
   
+}
+
+.cr-text{
+    font-size: 40px;
 }
 
 .arrow{
@@ -45,10 +49,11 @@
 }
 
 .about-section{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 0% 0 0% 0;
+   margin: 0 auto;
+   width:60vw;
+   font-size: 18px;
+   line-height: 2;
+   margin-bottom: 140px;
 }
 
 .about-text{
@@ -56,32 +61,68 @@
    margin: 0% 5% 0 5%;
 }
 
-.art-image1{
-   background-image: url(../Images/art.jpg);
-   background-size: contain;
-   background-position: center;
-   height: 300px;
-   width:600px;
+@media  (max-width: 1600px){
 
-object-fit: fill
+    .photo-of-me{
+        background-image: url(../Images/about-me.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        width: 40vw;
+        margin: -50% 0 0 25% !important;
+    }
+
+    .text-and-arrows{
+        display:flex;
+        flex-direction: column;
+        margin: 15% 15% 0 25%;
+    }
+    
+
+    .text-about-me{
+        font-size:22px;
+        font-weight: 500;
+      
+    }
+    
+    .cr-text{
+        font-size: 35px;
+    }
 }
 
-.art-image2{
-    background-image: url(../Images/design.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    width:600px;
-}
- .art-image3{
-    background-image: url(../Images/UX.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    width: 600px;
- }
 
- @media only screen and (max-width: 1025px) {
+}
+
+
+@media (max-width: 1200px){
+    .photo-of-me{
+        background-image: url(../Images/about-me.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 55vh;
+        width: 40vw;
+        margin: -60% 0 0 25% !important;
+    }
+
+    .text-and-arrows{
+        display:flex;
+        flex-direction: column;
+        margin: 10% 15% 0 25%;
+    }
+
+    .text-about-me{
+        font-size:20px;
+        font-weight: 500;
+      
+    }
+    
+    .cr-text{
+        font-size: 30px;
+    }
+}
+
+
+ @media (max-width: 900px) {
     .body{
         width: 100vw; 
     }
@@ -90,7 +131,7 @@ object-fit: fill
         display: flex;
         align-content: center;
         flex-direction: column;
-        margin: 0 0 5% 0;
+        margin: 0% 0 5% 0;
     }
     
     .blue-block{
@@ -106,13 +147,41 @@ object-fit: fill
            background-position: center;
            height: 60vh;
            width: 80vw;
-           margin: -55vh 0 0 5vw;
-       }
+           margin: -55vh 0 0 15vw !important;
+       } 
 
+       .text-and-arrows{
+        display:flex;
+        flex-direction: column;
+        margin: 20% 15% 0 25%;
+    }
+
+.text-and-arrows{
+    width:80vw;
+    margin:0 auto;
+    padding-top: 20px;
+    
+}  
+
+.cr-text{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.line-about{
+border: 1px solid black;
+width:90%;
+margin: 0 auto;
+margin-top: 40px;
+margin-bottom: 30px;
+
+}
 
 .text-about-me{
-    font-size:28px;
+    text-align: center;
+    font-size:20px;
     font-weight: 500;
+   
   
 }
 
@@ -121,15 +190,14 @@ object-fit: fill
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0% 0 0% 0;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 85%;
+    font-size: 15x;
+    margin-bottom: 60px;
  }
 
  .arrow{
     display: none;
 }
-
- .about-text{
-    width: 85%;
-    margin: 2% 5% 2% 5%;
-    font-size: 20px;
- }}
+ }
