@@ -61,6 +61,20 @@
    margin: 0% 5% 0 5%;
 }
 
+@media  (max-width: 1600px){
+
+    .photo-of-me{
+        background-image: url(../Images/about-me.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        width: 40vw;
+        margin: -60% 0 0 25% !important;
+    }
+
+
+}
+
 
 @media (max-width: 1200px){
     .photo-of-me{
@@ -71,10 +85,26 @@
         width: 40vw;
         margin: -60% 0 0 25% !important;
     }
+
+    .text-and-arrows{
+        display:flex;
+        flex-direction: column;
+        margin: 10% 15% 0 25%;
+    }
+
+    .text-about-me{
+        font-size:20px;
+        font-weight: 500;
+      
+    }
+    
+    .cr-text{
+        font-size: 30px;
+    }
 }
 
 
- @media only screen and (max-width: 1025px) {
+ @media (max-width: 900px) {
     .body{
         width: 100vw; 
     }
@@ -83,7 +113,7 @@
         display: flex;
         align-content: center;
         flex-direction: column;
-        margin: 0 0 5% 0;
+        margin: 0% 0 5% 0;
     }
     
     .blue-block{
@@ -93,14 +123,20 @@
         margin: 3vh 0 0 0;
        }
        
-       /* .photo-of-me{
+       .photo-of-me{
            background-size: cover;
            background-size: cover;
            background-position: center;
            height: 60vh;
            width: 80vw;
-           margin: -55vh 0 0 5vw;
-       } */
+           margin: -55vh 0 0 15vw !important;
+       } 
+
+       .text-and-arrows{
+        display:flex;
+        flex-direction: column;
+        margin: 20% 15% 0 25%;
+    }
 
 .text-and-arrows{
     width:80vw;
@@ -146,3 +182,4 @@ margin-bottom: 30px;
  .arrow{
     display: none;
 }
+ }
